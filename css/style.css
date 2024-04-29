@@ -1,0 +1,342 @@
+.hero_banner {
+    background: url(../images/bg.jpeg) fixed no-repeat;
+    background-position: top center;
+}
+
+.features li {
+    font-size: 11px;
+}
+.bonusamt{
+    font-size: 23px!important;
+    color: #000;
+    display: inline-block!important;
+    font-weight: 800;
+  }
+.features li img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.tablehead {
+    background-color: #00000099;
+}
+
+.tablehead h6 {
+    font-size: 13px;
+}
+
+.logo_container {
+    background-color: #000;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.logo_container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -23px;
+    border-top: 57px solid transparent;
+    border-bottom: 56px solid transparent;
+    border-left: 24px solid #000000;
+}
+
+.store_head {
+    color: #000;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 600;
+}
+.store_head span{
+    font-size: 13px;
+    line-height: 11px;
+}
+
+.client_img {
+    width: 125px;
+}
+
+.feature_img {
+    width: 57px;
+}
+
+.price {
+    margin: 0;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+}
+p.upipayment {
+    color: #808080;
+    font-size: 11px;
+    margin-top: 16px;
+    margin-bottom: 3px;
+
+}
+.txt_area {
+    color: #000000;
+    font-size: 13px;
+    margin: 0px 0 0;
+    font-weight: 600;
+}
+
+.star {
+    width: 88%;
+}
+
+.bonus_btn {
+    text-decoration: none;
+    box-shadow: 0 2px 4px 0 rgba(28, 44, 64, .17);
+    background-color: #07C40D;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+  
+.visit_site {
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1.46;
+    text-align: center;
+    color: #073d8c;
+    margin-top: 15px;
+    display: block;
+    text-decoration: underline;
+}
+
+.rating_num {
+    color: #000;
+}
+.rating_num small{
+    font-size: 16px;
+    color: #474545;
+}
+h6.votes {
+    font-size: 11px;
+    color: #6b6969;
+    margin-top: -4px;
+}
+.store_det {
+    background-color: #fff;
+    border-right: 1px solid #e6e6e6;
+}
+
+.store_logo {
+    width: 137px;
+    height: 66px;
+    object-fit: contain;
+}
+
+.hover_row {
+    transition: 0.5s all ease-in-out;
+}
+
+.hover_row:hover {
+    transform: scale(1.04);
+}
+
+.linking {
+    border-radius: 0 10px 10px 0;
+}
+
+@media (max-width:992px) {
+
+}
+@media (max-width:767px) {
+    .pulseanim{
+        animation: pulse 1s infinite ease-in-out alternate;
+    }
+    @keyframes pulse {
+        from { transform: scale(0.9); }
+        to { transform: scale(1.1); }
+      }
+    .bonusamt{
+        font-size: 21px!important;
+        color: #f50c0c;
+      }
+    .hover_row{
+        margin: 0;
+        border-radius: 10px;
+        background: #212121;
+        position: relative;
+        overflow: hidden;
+        min-height: 233px;
+    }
+    h6.votes{
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .logo_container::before{
+        content: "";
+        display: block;
+        width: 21%;
+        height: 100%;
+        position: absolute;
+        background: #212121;
+        border-radius: 50%;
+        z-index: -1;
+        right: -16px;
+    }
+    .hover_row:after{
+        content: "";
+        display: none;
+        width: 88px;
+        height: 138%;
+        border-radius: 50%;
+        background-color: #212121;
+        position: absolute;
+        top: -37px;
+        left: 43%;
+        z-index: 0;
+        border-radius: 0 49% 63% 0;
+        transform: translateX(-44%);
+    }
+    .rating_num small{
+        color: #c1c1c1;
+    }
+    .features li{
+        font-size: 9px;
+    }
+    .features li img {
+        width: 19px;
+        margin-right: 5px;
+    }
+    .mobhead{
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .logo_container:after {
+       display: none;
+    }
+    .hero_banner {
+        background-color: #000;
+        background-size: cover!important;
+        background-position-x: 250px;
+        background-position-y: 30px;
+        padding: 10px;
+    }
+    .content {
+        background: #fff;
+        border-radius: 0 10px 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    .txt_area,
+    .price,
+    .store_head,
+    .rating_num {
+        color: #000;
+    }
+
+    .rating_num {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    
+.left_box{
+    border-radius: 0 0 0 10px;
+}
+    .logo_container {
+        border-radius: 10px 0 0 ;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+  
+    .linking{
+        border-radius: 0 0 10px 0!important ;
+    }
+
+    .store_det {
+        border-right: 0;
+        padding: 21px 14px 0 !important;
+    }
+    .left_box {
+        background: #212121;
+        padding: 0px 14px 0 !important;
+        position: relative;
+        z-index: 1;
+    }
+    .store_head {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .txt_area,.store_head span{
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 5px;
+        display: block;
+    }
+    p.upipayment {
+        color: #808080;
+        font-size: 10px;
+        margin-top: 10px;
+        /* display: none; */
+    }
+    .bonus_btn{
+        box-shadow: unset;
+        border: unset;
+        padding: 7px 20px;
+        border-radius: 50px;
+        margin-top: 7px;
+        display: inline-block;
+    }
+    .price {
+        margin: 10px 0;
+    }
+
+    .visit_site {
+        font-weight: 500;
+        color: #0075FF;
+        padding-bottom: 12px;
+        margin-top: 7px;
+    }
+h6.votes{
+    color: #c1c1c1;
+}
+}
+@media (max-width:576px) {
+    
+    .hero_banner {
+        background-size: 700px;
+        background-position-x: unset;
+        background-position-y: unset;
+    }
+    .store_head{
+        font-size: 16px;
+    }
+    .store_head span{
+        font-size: 12px;
+     }
+    .store_head, .txt_area{
+        padding-left: 10px;
+    }
+
+    p.upipayment {
+        padding: 0 5px;
+    }
+   
+}
+@media (max-width:380px) {
+    .store_head {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .store_head span{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .visit_site{
+        font-size: 11px;
+    }
+}
